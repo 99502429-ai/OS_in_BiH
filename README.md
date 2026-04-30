@@ -1,5 +1,5 @@
-# OS_in_BiH
-Codebase and datasets used in "Politics, Identity, and Ontological Security in Bosnia and Herzegovina." All notebooks were run in Google Colab using T4 runtimes and only modified to provide clearer interpretation of the code. 
+# Politics, Identity, and Ontological Security in Bosnia and Herzegovina
+This repository contains the codebase and datasets used in the Master's thesis, "Politics, Identity, and Ontological Security in Bosnia and Herzegovina." All notebooks were run in Google Colab using T4 runtimes and only modified to provide clearer interpretation of the code. 
 
 ## Purpose
 This analysis was designed to determine how political discourse in the Parliamentary Assembly of Bosnia and Herzegovina affects the state's ontological security. This analysis uses modern techniques based largely on the transformers architecture and provides a macro analysis of discourse among the political elite in BiH.
