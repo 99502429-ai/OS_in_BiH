@@ -35,4 +35,6 @@ A custom multilabel classifier was trained for this analysis, and the detail can
 
 This analysis combined multilabel classification, sentiment analysis, and topic analysis using maching aided techniques. The multilabel calssifier is outlined in the section above, the sentiment was calculated with [xlm-r-parlasent](https://huggingface.co/classla/xlm-r-parlasent), and the topic analysis was done using [BERTopic](https://maartengr.github.io/BERTopic/index.html). All procedures and parameters are outlined in the [machine assisted techniques script](/MachineAssistedTechniques.ipynb)
 
+## Statistical Approaches
 
+The anlaysis utilized multiple statistical approaches, including k-means clustering for archetype clustering, $\chi^2$ test of independence, and Bayesian negative-binomial and beta regression. All steps taken and modelling paramenters can be found in the [statistical approaches script](/StatisticalApproaches.ipynb)
