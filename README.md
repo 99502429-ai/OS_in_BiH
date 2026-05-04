@@ -21,6 +21,8 @@ df <- readRDS("BiH_02-07_term_final.RDS") %>%
 
 ```
 
+Due to size limits of GitHub, all data that is used and modified is available [HERE](https://drive.google.com/file/d/1zWXSpaMp5JlqzMc7KY5pEErs_H-36JJ8/view?usp=drive_link)
+
 ## Preprocessing
 
 The data was preprocessed using the [preprocessing script](/PreProcessing.ipynb). The preprocessing includes machine translation using [opus-mt-sla-en](https://huggingface.co/Helsinki-NLP/opus-mt-sla-en), an initial filter for procedural speeches using [ParlaCAP-Topic-Classifier](https://huggingface.co/classla/ParlaCAP-Topic-Classifier), and chunked into 512-token segments using RecursiveCharacterTextSplitter.
